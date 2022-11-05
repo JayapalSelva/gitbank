@@ -22,7 +22,7 @@ public class BankController {
 		return bankser.AddDetail(b);
 	}
 	
-	@PostMapping("addlist")
+	@PostMapping("addlistbank")
 	public String addlist(@RequestBody List <Bank>b) {
 		return bankser.addlist(b);
 	}
